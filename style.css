@@ -1,0 +1,198 @@
+html, body, div, iframe, h1, h2, h3, p,
+a, ol, ul, li, footer, header, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+    width: 100%;
+    height: 18vh;
+    background-color: #018060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-header > img {
+    height: 48px;
+    width: 168px;
+}
+
+.Screen1 {
+    background-image: url('https://cdn.shopify.com/b/shopify-brochure2-assets/d6871d3f4578bf4ec7e7d85f961fe559.svg');
+    display: flex;
+    flex-direction: column;
+    max-height: 570px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #fff;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-mail {
+    display: flex;
+    gap: 10px;   
+}
+
+.box-mail > input {
+    width: 250px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 0 none;
+}
+
+.box-mail > input:focus {
+    outline: 0;
+}
+
+input::placeholder {
+    color: #B1B4B7;
+}
+
+.box-mail > button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: #F7F7F7;
+    background: #0B0B0B;
+}
+
+.box-mail > button:hover {
+    color: #0B0B0B;
+    background-color: #9c9c9c;
+    cursor: pointer;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.Container > img {
+    max-width: 420px;
+    max-height: 420px;
+}
+
+.Screen2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 100px;
+}
+
+.Container-Boxes {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 210px 0px 210px;
+    height: 194px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container-Boxes > div {
+    width: 270px;
+}
+
+.Container-Boxes > div > img {
+    margin-bottom: 10px;
+}
+
+.tittle-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25272A;
+    margin-bottom: 7px;
+}
+
+.subtittle-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7A8085;
+}
+
+.Container-Marcas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 210px 0px 210px;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    border-top: solid 0.5px #DDDFE2;
+    border-bottom: solid 0.5px #DDDFE2;
+}
+
+.Trial-Buttom{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.Trial-Buttom > h4{
+    font-family: sans-serif;
+    color: #222427;
+    font-size: larger;
+    width: 564px;
+    text-align: center;
+    margin: 0;
+}
+
+.Trial-Buttom > p {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.Trial-Buttom > button {
+    border: none;
+    padding: 17px;
+    background: #008060;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.Trial-Buttom > button:hover {
+    color: #0B0B0B;
+    background-color: #9c9c9c;
+    cursor: pointer;
+}
